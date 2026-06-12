@@ -1,31 +1,3 @@
-'''
-import feedparser
-import json
-
-rss_url = "https://ir.thomsonreuters.com/rss/news-releases.xml?items=15"
-feed = feedparser.parse(rss_url)
-
-entry = feed.entries[0]
-print(entry.keys())
-print(entry)
-
-news_items = []
-
-for entry in feed.entries:
-    news_items.append({
-        "source": "Reuters",
-        "title": entry.get("title", ""),
-        "link": entry.get("link", ""),
-        "summary": entry.get("summary", ""),
-        "published": entry.get("published", "")
-    })
-
-with open("metadata.json", "w", encoding="utf-8") as f:
-    json.dump(news_items, f, ensure_ascii=False, indent=2)
-
-print("已儲存成 metadata.json")
-'''
-
 import feedparser
 import requests
 from bs4 import BeautifulSoup
