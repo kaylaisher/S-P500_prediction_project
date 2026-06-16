@@ -9,8 +9,8 @@ venv/
 emotion_dataset/clean_Loughran-McDonald_MasterDictionary.csv
 emotion_dataset/Loughran-McDonald_MasterDictionary_1993-2025.csv
 
-the_guardian_test/guardian_metadata_output/2024-02.json
+the_guardian_test/guardian_metadata_output/
 
 
-the_guardian_test/news_article_process
+the_guardian_test/news_article_process/
 venv/
