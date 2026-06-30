@@ -16,23 +16,23 @@ fetch metadata          find first trade
 (test.py)               day of each month
      │                       │
      ▼                       │
-export bodyText               │
-(export_bodytext.py)          │
+export bodyText              │
+(export_bodytext.py)         │
      │                       │
      ▼                       │
-split sentences               │
-(split_sentences.py)          │
+split sentences              │
+(split_sentences.py)         │
      │                       │
      ▼                       │
-FinBERT sentiment             │
-(test_FinBERT.py)             │
+FinBERT sentiment            │
+(test_FinBERT.py)            │
      │                       │
      ▼                       │
-per-article weighted score    │
+per-article weighted score   │
 (calculate_emotion_each_article_score.py)
      │                       │
      ▼                       │
-per-month weighted score      │
+per-month weighted score     │
 (calculate_each_month_score.py)
      │                       │
      └──────► merge ◄────────┘
